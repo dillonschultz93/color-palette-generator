@@ -1,0 +1,6 @@
+.color-chips {
+  margin: 1rem 0;
+  /* four column grid */
+  display: grid;
+  /* grid-template-columns: repeat(4, 1fr); */
+}

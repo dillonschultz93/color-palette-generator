@@ -1,1 +1,17 @@
+@import '@quieto/tokens/dist/css/_light.css';
 
+:root {
+  --base-color: #4C87F9;
+}
+
+body {
+  color: var(--color-text-primary);
+  padding: 0 2rem;
+}
+
+.palette-stage {
+  /* four column grid */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
